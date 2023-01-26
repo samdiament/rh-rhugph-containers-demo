@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": ".be67addd93ec03ad71defbfdbf3401ca7e179edb-audit.json",
+    "files": [
+        {
+            "date": 1674749723985,
+            "name": "lottery-20230126.log",
+            "hash": "31e90e42dc69742663aff81a8ddcc6217be3fa3b660ffa7c91364080d7775b97"
+        }
+    ],
+    "hashType": "sha256"
+}
