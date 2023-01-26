@@ -5,7 +5,7 @@ require('winston-daily-rotate-file');
 const { combine, timestamp, json } = winston.format;
 
 const fileRotateTransport = new winston.transports.DailyRotateFile({
-    filename: 'lottery-%DATE%.log',
+    filename: '/logs/lottery-%DATE%.log',
     datePattern: 'YYYYMMDD',
     maxFiles: '14d'
 });
